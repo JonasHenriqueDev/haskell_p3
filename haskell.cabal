@@ -29,6 +29,7 @@ library
       Lib
       ListaUm
       NNQuestions
+      Recursividade
       Testes
   other-modules:
       Paths_haskell
