@@ -11,6 +11,8 @@ module ListaUm
         ouExclusivo,
         x_maior,
         x_menor,
+        somaInclusiva,
+        somaExclusiva
 
     )
 where
@@ -51,3 +53,12 @@ x_menor :: Float -> Float -> Float -> Float
 x_menor a b c = (-b - sqrt (b * b  - 4 * a * c)) / (2 * a)
 
 --Q7
+somaInclusiva :: Int -> Int -> Int
+somaInclusiva x y = sum [x..y]
+
+somaExclusiva :: Int -> Int -> Int
+somaExclusiva x y = sum [x+1 .. y-1]
+
+--Q8
+
+--Q9
