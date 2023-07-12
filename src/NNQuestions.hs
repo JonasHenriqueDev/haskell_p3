@@ -11,7 +11,6 @@ module NNQuestions
     pack
   )
 where
-import Control.Concurrent (waitQSem)
 
 --Q1
 myLast :: [a] -> a
