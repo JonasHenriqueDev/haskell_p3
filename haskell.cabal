@@ -30,6 +30,7 @@ library
       Lib
       ListaUm
       NNQuestions
+      ProvaUm
       Recursividade
       Testes
   other-modules:
